@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jboss-deployment-structure>
+  <deployment>
+    <exclusions>
+<!--  스프링 프레임워크 사용 시 org.apache.commons.logging 은 필수로 해줘야 함 -->
+<!--	<module name="org.apache.commons.logging"/>
+	<module name="org.slf4j"/>
+	<module name="org.slf4j.ext"/>
+	<module name="org.slf4j.impl"/>
+	<module name="org.slf4j.jcl-over-slf4j"/> -->
+    </exclusions>
+  </deployment>
+</jboss-deployment-structure>

@@ -1,0 +1,1 @@
+<% response.sendRedirect("http://www.google.co.kr"); %>
