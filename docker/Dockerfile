@@ -1,4 +1,4 @@
-FROM bastion.ocp.pentalink.mw:5000/jboss-eap-7/eap74-openjdk11-openshift-rhel8:7.4.10-3
+FROM registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8
 
 USER root
 
