@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="showdata.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="dataindex.css">
+    <div id="app">
+        <div class="controls">
+          <button @click="getNextSet()">Change Data</button>
+          <button @click="toggleDirection()">Toggle Direction</button>
+          <button @click="toggleGradient()">Toggle Gradient Direction</button>
+        </div>
+        <div class="funnels">
+          <vue-funnel-graph :width="width" :height="height" :labels="labels" :values="values" :colors="colors" :sub-labels="subLabels" :direction="direction" :gradient-direction="gradientDirection" :animated="true" :display-percentage="true"></vue-funnel-graph>
+        </div>
+      </div>
+      <div class="repos">
+        <a class="repo js-repo" href="https://github.com/greghub/funnel-graph-js" target="_blank"><i class="fab fa-js-square"></i> Get the JS Library</a>
+        <a class="repo vue-repo" href="https://github.com/greghub/vue-funnel-graph-js" target="_blank"><i class="fab fa-vuejs"></i> Get the Vue.js Component</a>
+      </div>
+      
+</body>
+</html>
